@@ -31,9 +31,22 @@ nav a {
 .content1 {
   padding: 30px 300px;
   display: flex;
-  flex-direction: column;
   gap: 20px;
-  width: 1000px;
+  height: 350px;
+}
+
+.content1 p {
+  max-width: 405px;
+  padding-bottom: 20px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.content1 h1 {
+  padding-bottom: 20px;
+  width: 350px;
+  color: #f9faf8;
+  font-size: 48px;
 }
 
 .content1 button {
@@ -44,6 +57,43 @@ nav a {
 
 .placeholder {
   display: flex;
-  align-self: flex-end;
-  padding-bottom: 50px;
+  align-items: center;
+  color: white;
+  background-color: #6d747d;
+  width: 500px;
+  height: 200px;
+  margin-left: auto;
+  justify-content: center;
+}
+
+section h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.content2 .box {
+  display: flex;
+  border: 3px solid #3882f6;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.content2 {
+  padding: 30px 300px;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.container p {
+  padding-top: 10px;
 }
